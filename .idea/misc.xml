@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/code/android/delivr/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.112" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/activity_main.xml" value="0.34692028985507245" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/category_list_header.xml" value="0.34692028985507245" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/category_list_item.xml" value="0.5" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/fragment_cart.xml" value="0.25" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/fragment_cart_is_empty.xml" value="0.25" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/fragment_category_selector.xml" value="0.34692028985507245" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/fragment_category_viewer.xml" value="0.378125" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/fragment_delivery.xml" value="0.25" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/fragment_food.xml" value="0.34692028985507245" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/fragment_order_performer.xml" value="0.14492753623188406" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/loading_overlay.xml" value="0.378125" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/layout/product_item.xml" value="0.5" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+        <entry key="..\:/code/android/delivr/app/src/main/res/mipmap-anydpi-v26/ic_launcher1.xml" value="0.17" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

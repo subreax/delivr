@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Джолли Молли</string>
+    <string name="order_accepted">Заказ принят!</string>
+    <string name="wrong_email">Неправильный email-адрес</string>
+    <string name="wrong_tel">Неправильный номер телефона</string>
+    <string name="address_is_required">Необходимо указать адрес</string>
+    <string name="name_is_required">Необходимо указать имя</string>
+    <string name="make_order_for_the_price">Оформить заказ на сумму\n%s</string>
+    <string name="making_an_order">Оформление заказа</string>
+    <string name="enter_some_data_about_you">Заполните некоторые сведения о себе</string>
+    <string name="name">Имя</string>
+    <string name="address">Адрес</string>
+    <string name="tel">Телефон</string>
+    <string name="email">Почта</string>
+    <string name="failed_to_make_the_order">Не удалось оформить заказ</string>
+    <string name="categories">Категории</string>
+    <string name="total_price">Итого:</string>
+    <string name="make_order">Заказать</string>
+    <string name="cart_is_empty">В корзине пока ещё ничего нет</string>
+    <string name="loading">Загрузка</string>
+</resources>

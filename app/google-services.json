@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546976567018",
+    "project_id": "delivr-c0d60",
+    "storage_bucket": "delivr-c0d60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546976567018:android:2814e528dcd0c01ebf9193",
+        "android_client_info": {
+          "package_name": "com.example.delivr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546976567018-oacj9jh9061u2qeppve24k1v0hrn05vh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx1I7k6dHjYV_6heDwlB-avOV1sOA_tYM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546976567018-oacj9jh9061u2qeppve24k1v0hrn05vh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

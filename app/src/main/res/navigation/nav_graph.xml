@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/categorySelectorFragment">
+    <fragment
+        android:id="@+id/categorySelectorFragment"
+        android:name="com.example.delivr.categoryselector.CategorySelectorFragment"
+        android:label="Главная"
+        tools:layout="@layout/fragment_category_selector">
+        <action
+            android:id="@+id/action_categorySelectorFragment_to_categoryViewerFragment"
+            app:destination="@id/categoryViewerFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.example.delivr.cart.CartFragment"
+        android:label="Корзина"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_cartFragment_to_deliveryFragment"
+            app:destination="@id/deliveryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryViewerFragment"
+        android:name="com.example.delivr.categoryviewer.CategoryViewerFragment"
+        tools:layout="@layout/fragment_category_viewer" >
+        <argument
+            android:name="categoryId"
+            app:argType="string" />
+        <argument
+            android:name="categoryName"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/deliveryFragment"
+        android:name="com.example.delivr.delivery.DeliveryFragment"
+        android:label="Оформление заказа"
+        tools:layout="@layout/fragment_delivery" >
+        <action
+            android:id="@+id/action_deliveryFragment_to_categorySelectorFragment"
+            app:destination="@id/categorySelectorFragment"
+            app:popUpTo="@id/categorySelectorFragment"
+            app:popUpToInclusive="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            />
+    </fragment>
+</navigation>
